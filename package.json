@@ -1,0 +1,21 @@
+{
+  "name": "test_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r esm index.js"
+  },
+  "author": "Savvy",
+  "license": "ISC",
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "generalised-datastore": "^1.7.85"
+  }
+}
